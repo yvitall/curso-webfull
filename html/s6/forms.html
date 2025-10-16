@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 6 - Forms</title>
+</head>
+<!--
+name = GRUPO ONDE PERTENCE O CAMPO // INFORMAÇÃO QUE SERÁ RELACIONADA AO VALOR INPUTADO PELO USUÁRIO (CHAVE)
+id = IDENTIFICADOR 
+value = valor que será enviado ao servidor
+-->
+<body>
+    <header>
+        <h1>Atividade 6 - Formulários</h1>
+    </header>
+    <div class="data">
+        <form action="forms.html" method="get">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label for="nome1"><strong>Nome: </strong></label>
+                <input type="text" name="name1" id="name1" placeholder="Digite seu Nome" required>
+                <label for="idad"><strong>Idade: </strong></label>
+                <input type="number" name="idade" id="idade" placeholder="Digite sua Idade">
+            </fieldset>
+    <!--INFORMAÇÕES ADICIONAIS--> 
+            <fieldset>
+                <legend>Dados Adicionais</legend>
+                <!--RADIO INPUT-->
+                <strong>Selecione seu Gênero:</strong>
+                <br>
+                <input type="radio" name="genero" id="masc" value="masculino">
+                <label for="masc">Masculino</label>
+                <input type="radio" name="genero" id="feminino" value="feminino">
+                <label for="feminino">Feminino</label>
+                <input type="radio" name="genero" id="viadinho" value="viadinho">
+                <label for="viadinho">Viadinho</label>
+                <br><br>
+                <!--CHECKBOX INPUT-->
+                <strong>Selecione seu Estilo Musical (pode selecionar mais de um):</strong>
+                <br>
+                <input type="checkbox" name="musicalStyle" id="rock_mS" value="rock">
+                <label for="rock_mS">Rock</label>
+                <input type="checkbox" name="musicalStyle" id="forro_mS" value="forro">
+                <label for="forro_mS">Forró</label>
+                <input type="checkbox" name="musicalStyle" id="sertanejo_mS" value="sertanejo">
+                <label for="sertanejo_mS">Sertanejo</label>
+                <br><br>
+                <!--SELECT INPUT-->
+                <strong>Selecione seu Estado:</strong>
+                <br>
+                <select name="estado">
+                    <option value="">Selecione</option>
+                    <option value="pe">Pernambuco</option>
+                    <option value="sp">São Paulo</option>
+                    <option value="rj">Rio de Janeiro</option>
+                </select>
+                <br><br>
+                <!--UPLOAD-->
+                <input type="file" name="upload" id="upload1">
+            </fieldset>
+        <button type="submit">Enviar Dados</button>                
+        </form>
+
+    </div>
+</body>
+</html>
