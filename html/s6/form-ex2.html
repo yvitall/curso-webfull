@@ -14,18 +14,18 @@
             <legend>Dados Pessoais</legend>
             <label for="name1">Nome</label>
             <br>
-            <input type="text" id="name1" name="name" placeholder="Insira seu Nome">
+            <input type="text" id="name1" name="name" placeholder="Insira seu Nome" required>
             <br>
             <label for="email1">Email</label>
             <br>
             <input type="email" id="email1" name="email" placeholder="Insira seu Email">
             <br>
-            <input type="checkbox" id="news" name="news" value="queroreceber">
+            <input type="checkbox" id="news" name="receberemail" value="sim">
             <label for="news">Quero receber e-mail</label>
             <br><br>
             <label for="senha1">Senha</label>
             <br>
-            <input type="password" id="senha1" name="senha" placeholder="Insira sua Senha">
+            <input type="password" id="senha1" name="senha" placeholder="Insira sua Senha" required>
             <br>
         </fieldset>
         <fieldset>
@@ -40,3 +40,8 @@
 
 </body>
 </html>
+
+<!--
+O atributo "NAME" serve para identificar o campo no envio do formulário, mas também serve para agrupar campos do mesmo tipo (checkbox e radio)
+O atributo "ID" serve para relacionar o label ao input, mas também pode ser usado para estilizar o campo via CSS ou manipulá-lo via JavaScript.
+-->
