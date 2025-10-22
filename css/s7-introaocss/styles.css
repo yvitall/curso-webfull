@@ -1,7 +1,23 @@
 a {
     color: green;
-    s
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    text-decoration: underline;
 }
 p {
-    color: yellow;
+    color: #751470;
+}
+li {
+    background-color: lightblue;
+    border: 1px solid blue;
+}
+table {
+    background-color: lightsalmon;
+    color: orangered;
+    border: 3px solid darkred;
+}
+td{
+    border: 3px solid black;
 }
