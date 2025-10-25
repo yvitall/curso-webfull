@@ -6,7 +6,7 @@
     | Seção 4 - Introdução ao HTML ✅ <br>
     | Seção 5 - HTML Intermediário ✅<br>
     | Seção 6 - HTML - Formulários e Mídias ✅<br>
-        | Projeto Final: Clone estrutura HTML <b>Discord</b> ✅
+        | Projeto Final: Clone estrutura HTML <b>Discord</b> ✅ <br>
 [🎨] CSS 🆗<br>
     | Seção 7 - Introdução ao CSS ✅<br>
     | Seção 8 - Propriedades CSS 🆗<br>
