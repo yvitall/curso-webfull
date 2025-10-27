@@ -10,12 +10,22 @@
 [🎨] CSS 🆗<br>
     | Seção 7 - Introdução ao CSS ✅<br>
     | Seção 8 - Propriedades CSS ✅<br>
-    | Seção 9 - CSS Intermediário 🆗<br>
-    | Seção 11 - CSS Avançado <br>
+    | Seção 9 - CSS Intermediário ✅<br>
+    | Seção 11 - CSS Avançado 🆗<br>
     | Seção 12 - CSS FlexBox<br>
     | Seção 13 - CSS Grid Layout<br>
 [🐱‍👤] GIT e GITHUB: Essencial ❌<br>
+[🧮] ALGORÍTMO BÁSICO ✅<br> 
 [🤓] JAVASCRIPT 🆗<br>
+    | Seção 15 - Fundamentos <br>
+    | Seção 16 - Operadores e Funções <br>
+    | Seção 17 - Arrays e Loops <br>
+    | Seção 18 - Orientação a Objetos <br>
+    | Seção 19 - Práticas e Funções <br>
+    | Seção 20 - Intermediário - Funções Nativas <br>
+    | Seção 21 - Intermediário - Arrays <br>
+    | Seção 22 - Intermediário - DOM <br>
+    | Seção 23 - Intermediário - Eventos<br>
 [🟦] TYPESCRIPT ❌<br>
 [⚛] REACT ❌<br>
 [📲] NEXT.JS ❌<br>
