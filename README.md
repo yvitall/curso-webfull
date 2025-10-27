@@ -9,8 +9,8 @@
         | Projeto Final: Clone estrutura HTML <b>Discord</b> ✅ <br>
 [🎨] CSS 🆗<br>
     | Seção 7 - Introdução ao CSS ✅<br>
-    | Seção 8 - Propriedades CSS 🆗<br>
-    | Seção 9 - CSS Intermediário <br>
+    | Seção 8 - Propriedades CSS ✅<br>
+    | Seção 9 - CSS Intermediário 🆗<br>
     | Seção 11 - CSS Avançado <br>
     | Seção 12 - CSS FlexBox<br>
     | Seção 13 - CSS Grid Layout<br>
