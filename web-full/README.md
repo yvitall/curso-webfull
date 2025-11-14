@@ -17,8 +17,8 @@
 [🐱‍👤] GIT e GITHUB: Essencial ❌<br>
 [🧮] ALGORÍTMO BÁSICO ✅<br> 
 [🤓] JAVASCRIPT 🆗<br>
-    | Seção 15 - Fundamentos <br>
-    | Seção 16 - Operadores e Funções <br>
+    | Seção 15 - Fundamentos ✅<br>
+    | Seção 16 - Operadores e Funções 🆗 <br>
     | Seção 17 - Arrays e Loops <br>
     | Seção 18 - Orientação a Objetos <br>
     | Seção 19 - Práticas e Funções <br>
