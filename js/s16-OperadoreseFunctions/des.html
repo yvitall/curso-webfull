@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio IMC</title>
+
+    <script>
+        function calcularIMC() {
+            let peso = document.getElementById("peso").value;
+            let altura = document.getElementById("altura").value;
+
+            if(peso != ""){
+                if(altura != ""){
+                    let calculoIMC = peso / (altura ** 2);
+                    let resultado;
+                        if (calculoIMC >= 30 ){
+                            document.getElementById("resultado").innerHTML = ("Você está Obeso! Pratique exercícios")
+                        } else if (calculoIMC >= 25 && calculoIMC <= 29.9){
+                            document.getElementById("resultado").innerHTML = ("Você está Sobrepeso! Pratique exercícios")
+                        } else if (calculoIMC >= 18.5 && calculoIMC <= 24.9){
+                            document.getElementById("resultado").innerHTML = ("Você está no Peso ideal! Mantenha seus hábitos saudáveis!")
+                        } else {
+                            document.getElementById("resultado").innerHTML = ("Você está Abaixo do peso ideal! Procure um nutricionista!")
+                        }
+                } else {
+                    alert("É necessário preencher o campo ALTURA para calcular o seu IMC")
+            }
+            } else {
+                alert("É necessário preencher o campo PESO para calcular o seu IMC")
+            }
+        }
+    </script>
+
+</head>
+<body>
+    <div id="aplicacao">
+        <div>
+            <header>
+                <h1>CALCULADORA DE IMC</h1>
+            </header>
+        </div>
+        <main>
+            <div class="card">
+                <form action="">
+                    <div class="peso">
+                        <label for="">Digite seu Peso</label>
+                        <input type="text" id="peso" placeholder="Por exemplo: 82">
+                    </div>
+                    <div class="altura">
+                        <label for="">Digite sua altura</label>
+                        <input type="text" id="altura" placeholder="Por exemplo: 1.75">
+                    </div>
+                    <div class="resultado">
+                        <h3 id="resultado" style="color: red;">Resultado</h3>
+                    </div>
+                    <button type="button" id="calcular" onclick="calcularIMC()">Calcular</button>
+                </form>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
