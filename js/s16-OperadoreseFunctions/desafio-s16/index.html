@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Álcool ou Gasolina? Descubra!</title>
+
+    <link rel="stylesheet" href="css/global.css">
+</head>
+<body>
+    <div id="aplicacao">
+        <main>
+            <div class="card">
+                <div class="title-card">
+                    <h1>Álcool ou Gasolina?</h1>
+                </div>
+                <form action="">
+                    <div class="alcool">
+                        <label for="valorAlcool">Valor do Álcool</label>
+                        <input type="text" id="valorAlcool" name="valorAlcool" placeholder="Digite o valor do álcool (ex: 3,20)">
+                    </div>
+                    <div class="gasolina">
+                        <label for="valorGas">Valor do Gasolina</label>
+                        <input type="text" id="valorGas" name="valorGas" placeholder="Digite o valor da Gasolina (ex: 3,20)">
+                    </div>  
+                    <div class="resultado" style="color: red;">
+                        <h3 id="resultado"></h3>
+                    </div>
+                    <div class="botao">
+                        <button type="button" id="calcular" onclick="calcularMelhor()">Calcular</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+    </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
