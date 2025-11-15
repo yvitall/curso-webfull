@@ -6,7 +6,7 @@ function calcularMelhor() {
 
 
     if(precoAlcool != "") {
-        if (precoAlcool != "") {
+        if (precoGasolina != "") {
             let resultado = precoAlcool / precoGasolina;
             if (resultado < 0.7){
                 document.getElementById("resultado").innerHTML = "Melhor Gasolina"
